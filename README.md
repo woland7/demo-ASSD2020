@@ -1,2 +1,2 @@
-OpenShift 3 Wildfy Demo Application
+OpenShift 3 Wildfly Demo Application
 ====================
