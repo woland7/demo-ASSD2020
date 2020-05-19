@@ -38,7 +38,7 @@
         </plugins>
     </build>
 
-    <!--<profiles>
+    <profiles>
         <profile>
             &lt;!&ndash; When built in OpenShift the 'openshift' profile will be used when invoking mvn. &ndash;&gt;
             &lt;!&ndash; Use this profile for any OpenShift specific customization your app will need. &ndash;&gt;
@@ -61,5 +61,5 @@
                 </plugins>
             </build>
         </profile>
-    </profiles>-->
+    </profiles>
 </project>
