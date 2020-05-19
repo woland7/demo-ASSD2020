@@ -1,7 +1,5 @@
 package presentation;
 
-
-
 import javax.ejb.EJB;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
