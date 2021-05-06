@@ -13,6 +13,7 @@ public class ConverterServiceImpl implements ConverterService{
 
     @Override
     public Response convert(double euro) {
+        System.out.println("euro è  " + euro);
         double dollar = converterLogic.convertToDollar(euro);
         System.out.println("ohhhh");
         System.out.println(dollar);
