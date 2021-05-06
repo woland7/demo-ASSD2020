@@ -14,6 +14,8 @@ public class ConverterServiceImpl implements ConverterService{
     @Override
     public Response convert(double euro) {
         double dollar = converterLogic.convertToDollar(euro);
+        System.out.println("ohhhh");
+        System.out.println(dollar);
         return MyResposeBuilder.createResponse(Response.Status.OK, dollar);
     }
 }
