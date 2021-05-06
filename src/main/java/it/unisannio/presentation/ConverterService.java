@@ -9,5 +9,5 @@ import javax.ws.rs.core.Response;
 public interface ConverterService {
     @GET
     @Path("/")
-    Response convert(@FormParam("euro") double euro);
+    Response convert(@QueryParam("euro") double euro);
 }
